@@ -25,7 +25,7 @@
 	<packaging>pom</packaging>
 	<groupId>org.apache.juddi</groupId>
 	<artifactId>juddi-style-parent</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>Apache jUDDI_v3 Style Parent</name>
 	<description>Site and Docbook styles for the jUDDI project</description>
 	<url>http://ws.apache.org/juddi/</url>
@@ -112,9 +112,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:svn:http://svn.apache.org/repos/asf/webservices/juddi/styles/trun/tags/juddi-style-parent-1.0</connection>
-		<developerConnection>scm:svn:https://svn.apache.org/repos/asf/webservices/juddi/styles/tags/juddi-style-parent-1.0</developerConnection>
-		<url>http://svn.apache.org/viewcvs.cgi/webservices/juddi/styles/tags/juddi-style-parent-1.0</url>
+		<connection>scm:svn:http://svn.apache.org/repos/asf/webservices/juddi/styles/trun</connection>
+		<developerConnection>scm:svn:https://svn.apache.org/repos/asf/webservices/juddi/styles/trunk</developerConnection>
+		<url>http://svn.apache.org/viewcvs.cgi/webservices/juddi/styles/trunk</url>
 	</scm>
 	    <build>
         <pluginManagement>
