@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.apache.juddi</groupId>
 		<artifactId>juddi-style-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<version>1.0</version>
 	</parent>
 	<artifactId>juddi-docbook-xslt</artifactId>
 	<packaging>jar</packaging>
