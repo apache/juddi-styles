@@ -41,8 +41,8 @@
               doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
               standalone="no"/>
 
-  <xsl:param name="siteHref" select="'http://ws.apache.org/juddi'"/>
-  <xsl:param name="docHref" select="'http://ws.apache.org/juddi/docs'"/>
+  <xsl:param name="siteHref" select="'http://juddi.apache.org/'"/>
+  <xsl:param name="docHref" select="'http://juddi.apache.org/docs.html'"/>
   <xsl:param name="siteLinkText" select="'Apache jUDDI'"/>
   <xsl:param name="docLinkText" select="'Community Documentation'"/>
 

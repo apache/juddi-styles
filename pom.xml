@@ -20,15 +20,15 @@
 	<parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
-        <version>6</version>
+        <version>9</version>
     </parent>
 	<packaging>pom</packaging>
 	<groupId>org.apache.juddi</groupId>
 	<artifactId>juddi-style-parent</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Apache jUDDI_v3 Style Parent</name>
 	<description>Site and Docbook styles for the jUDDI project</description>
-	<url>http://ws.apache.org/juddi/</url>
+	<url>http://juddi.apache.org/</url>
 	
 	<properties>
         <sourceReleaseAssemblyDescriptor>source-release</sourceReleaseAssemblyDescriptor>
@@ -43,24 +43,24 @@
 	<mailingLists>
 		<mailingList>
 			<name>jUDDI User List</name>
-			<subscribe>juddi-user-subscribe@ws.apache.org</subscribe>
-			<unsubscribe>juddi-user-unsubscribe@ws.apache.org</unsubscribe>
-			<post>juddi-user@ws.apache.org</post>
-			<archive>http://mail-archives.apache.org/mod_mbox/ws-juddi-user/</archive>
+			<subscribe>user-subscribe@juddi.apache.org</subscribe>
+			<unsubscribe>user-unsubscribe@juddi.apache.org</unsubscribe>
+			<post>user@juddi.apache.org</post>
+			<archive>http://mail-archives.apache.org/mod_mbox/juddi-user/</archive>
 		</mailingList>
 		<mailingList>
 			<name>jUDDI Developer List</name>
-			<subscribe>juddi-dev-subscribe@ws.apache.org</subscribe>
-			<unsubscribe>juddi-dev-unsubscribe@ws.apache.org</unsubscribe>
-			<post>juddi-dev@ws.apache.org</post>
-			<archive>http://mail-archives.apache.org/mod_mbox/ws-juddi-dev/</archive>
+			<subscribe>dev-subscribe@juddi.apache.org</subscribe>
+			<unsubscribe>dev-unsubscribe@juddi.apache.org</unsubscribe>
+			<post>dev@juddi.apache.org</post>
+			<archive>http://mail-archives.apache.org/mod_mbox/juddi-dev/</archive>
 		</mailingList>
 		<mailingList>
 			<name>jUDDI SVN List</name>
-			<subscribe>juddi-cvs-subscribe@ws.apache.org</subscribe>
-			<unsubscribe>juddi-cvs-unsubscribe@ws.apache.org</unsubscribe>
-			<post>juddi-cvs@ws.apache.org</post>
-			<archive>http://mail-archives.apache.org/mod_mbox/ws-juddi-cvs/</archive>
+			<subscribe>cvs-subscribe@juddi.apache.org</subscribe>
+			<unsubscribe>cvs-unsubscribe@juddi.apache.org</unsubscribe>
+			<post>cvs@juddi.apache.org</post>
+			<archive>http://mail-archives.apache.org/mod_mbox/juddi-cvs/</archive>
 		</mailingList>
 	</mailingLists>
 	<developers>
@@ -112,9 +112,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:svn:http://svn.apache.org/repos/asf/webservices/juddi/styles/trun</connection>
-		<developerConnection>scm:svn:https://svn.apache.org/repos/asf/webservices/juddi/styles/trunk</developerConnection>
-		<url>http://svn.apache.org/viewcvs.cgi/webservices/juddi/styles/trunk</url>
+		<connection>scm:svn:http://svn.apache.org/repos/asf/juddi/styles/trunk</connection>
+		<developerConnection>scm:svn:https://svn.apache.org/repos/asf/juddi/styles/trunk</developerConnection>
+		<url>http://svn.apache.org/viewcvs.cgi/juddi/styles/trunk</url>
 	</scm>
 	    <build>
         <pluginManagement>

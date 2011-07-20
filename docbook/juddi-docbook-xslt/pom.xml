@@ -3,24 +3,25 @@
 	<parent>
 		<groupId>org.apache.juddi</groupId>
 		<artifactId>juddi-style-parent</artifactId>
-		<version>1.1-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
+		<relativePath>../../pom.xml</relativePath>
 	</parent>
 	<artifactId>juddi-docbook-xslt</artifactId>
 	<packaging>jar</packaging>
 	<name>Apache jUDDI DocBook XSLT</name>
 	<description>The main project to transform DocBook XML into XHTML
 		and other formats for jUDDI Community Documentation.</description>
-	<url>http://ws.apache.org/juddi/</url>
+	<url>http://juddi.apache.org/</url>
 	<organization>
 		<name>Apache jUDDI</name>
-		<url>http://ws.apache.org/juddi/</url>
+		<url>http://juddi.apache.org/</url>
 	</organization>
 	
 	<dependencies>
 		<dependency>
 			<groupId>net.sf.docbook</groupId>
 			<artifactId>docbook</artifactId>
-			<version>1.72.0</version>
+			<version>1.74.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.docs</groupId>
